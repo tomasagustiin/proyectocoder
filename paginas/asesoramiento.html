@@ -11,19 +11,20 @@
     <title>Asesoramiento</title>
     <!--Jam icons-->
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <link rel="stylesheet" href="../estilos/bootstrap.min.css">
 </head>
-<body>
+<body class="body1">
     <header class="header">
         <img src="../imagenes/Logo.jpg" alt="Logo JaranaMundo" width="100" height="100" class="logo">
         <a href="#abierto" class="jam jam-plane-f header__icono"></a>
         <nav class="menu" id="abierto">
             <!---- Menu para Navegar ---->
             <ul class="menu__items">
-                <li class="menu__pags"><a href="../index.html">Inicio</a></li> 
-                <li class="menu__pags"><a href="./nosotros.html">Nosotros</a></li>
-                <li class="menu__pags"><a href="./viajes.html">Viajes</a></li>
-                <li class="menu__pags"><a href="./asesoramiento.html">asesoramiento</a></li>
-                <li class="menu__pags"><a href="./preguntas.html">Preguntas</a></li>
+                <li class="menu__pags"><a href="../index.html" class="menu__pags menu__pags--1">Inicio</a></li> 
+                <li class="menu__pags"><a href="./nosotros.html" class="menu__pags menu__pags--1">Nosotros</a></li>
+                <li class="menu__pags"><a href="./viajes.html" class="menu__pags menu__pags--1">Viajes</a></li>
+                <li class="menu__pags"><a href="./asesoramiento.html" class="menu__pags menu__pags--1">asesoramiento</a></li>
+                <li class="menu__pags"><a href="./preguntas.html" class="menu__pags menu__pags--1">Preguntas</a></li>
                 <li class="menu__pags menu__pags--oculto">
                     <a href="#cerrado">Cerrar</a>
                 </li>
@@ -35,24 +36,24 @@
     <main class="main">
         <Section>
             <h1 class="titulo">Podemos Ayudarte</h1>
-            <p>Todavia No hiciste tu primer viaje y no sabes a donde ir? Dejanos tus datos para poder contactarte y ayudarte a elegir tu primer destino.
+            <p class="parrafocontactos">Todavia No hiciste tu primer viaje y no sabes a donde ir? Dejanos tus datos para poder contactarte y ayudarte a elegir tu primer destino.
                     Nos encargamos de armar tu viaje, buscandote hoteles, excursiones y demas
             </p>
-            <span>Deja tus datos a continuacion y te contactaremos</span>
+            <span class="parrafocontactos">Deja tus datos a continuacion y te contactaremos</span>
             <form>
-                    <div>
+                    <div class="formulario">
                          <label for="">Nombre:</label>
                          <input type="text">
                     </div>
-                    <div>
+                    <div class="formulario">
                         <label for="">Email:</label>
                         <input type="email">
                     </div>
-                    <div>
+                    <div class="formulario">
                         <label for="">Un telefono:</label>
                         <input type="number">
                     </div>
-                    <button type="submit">Enviar</button>
+                    <button type="submit" class="btn btn-light">Enviar</button>
             </form>
         </Section>
 
@@ -78,5 +79,7 @@
         </nav>
 
     </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

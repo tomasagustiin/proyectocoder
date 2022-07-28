@@ -24,17 +24,44 @@
     flex-direction: row;
     align-items: center;
     padding: 10px;
+    margin-bottom: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    font-size: small;
+    text-decoration: none;
+    
 }
+a{
+    color: black;
+    font-size: 15px;
+}
+
+
 .menu__pags{
     margin-right: 16px;
     color: black;
+    text-decoration: none;
 }
-body{
+
+.menu__pags--1{
+    color: black;
+}
+.body1{
     background-color: #DBFFFF;
+   
+
 }
     
 .titulo{
     margin-top: 180px;
+    animation-name: efecto;
+    animation-duration: 4s;
+    margin-bottom: 3rem;
+    font-weight: 900;
+    line-height: 0;
 }
 .main{
     background-color: #DBFFFF;
@@ -60,12 +87,19 @@ body{
     width: 20%;
 }
 
+
 .titulo{
     
     font-family: 'Dancing Script', cursive;
     font-size: 45px;
     text-decoration: underline;
     text-align: center;
+}
+.formulario{
+    margin: 16px;
+}
+.parrafocontactos{
+    margin: 16px;
 }
 .footer{
     background-color: #DBFFFF;
@@ -76,7 +110,10 @@ body{
     width: 100%;
     margin-right: 10px;
  }
-/*Viajes*/
+.btn-light{
+    margin: 1rem;
+}
+ /*Viajes*/
 
 .viajes__section{
     display: flex;
@@ -134,6 +171,7 @@ body{
 .venecia__img{
     border-radius: 12px;
 }
+
 .francia{
     background-color: lightcyan;
     width: 25%;
@@ -167,6 +205,16 @@ body{
 }
 .menu__pags--oculto{
     display: none;
+}
+
+@keyframes efecto {
+0% {
+    opacity: 0;
+}
+50%{
+    opacity: 1;
+}
+
 }
 /* Tablet */
 @media screen and (max-width:1023px){
