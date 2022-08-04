@@ -1,0 +1,19 @@
+.footer{
+    background-color: #DBFFFF;
+    font-family: 'Dancing Script', cursive;
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-right: 10px;
+ }
+
+.contacto{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    border-top: 3px solid black;
+    padding: 10px;
+    gap: 1rem;
+}

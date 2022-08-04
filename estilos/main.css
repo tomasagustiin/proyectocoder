@@ -1,0 +1,303 @@
+@charset "UTF-8";
+a {
+  color: black;
+  font-size: 15px;
+}
+
+.body1 {
+  background-color: #DBFFFF;
+}
+
+.main {
+  background-color: #DBFFFF;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.header {
+  background-color: #7effff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.menu__pags--oculto {
+  display: none;
+}
+
+.header__icono {
+  font-size: 30px;
+  text-decoration: none;
+  display: none;
+}
+
+.menu__items {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 0;
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  font-size: small;
+  text-decoration: none;
+}
+
+.menu__pags {
+  margin-right: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.menu__pags--1 {
+  color: black;
+}
+
+.footer {
+  background-color: #DBFFFF;
+  font-family: "Dancing Script", cursive;
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.contacto {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  border-top: 3px solid black;
+  padding: 10px;
+  gap: 1rem;
+}
+
+.titulo {
+  margin-top: 180px;
+  -webkit-animation-name: efecto;
+          animation-name: efecto;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  margin-bottom: 3rem;
+  font-weight: 900;
+  line-height: 0;
+}
+
+.inicio {
+  color: black;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3rem;
+}
+.inicio .inicio__izquierda {
+  width: 80%;
+  padding: 2rem;
+}
+.inicio .inicio__derecha {
+  width: 20%;
+}
+
+.titulo {
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.formulario {
+  margin: 16px;
+}
+
+.parrafocontactos {
+  margin: 16px;
+}
+
+.btn-light {
+  margin: 1rem;
+}
+
+/*Viajes*/
+.viajes__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.españa {
+  background-color: lightcyan;
+  width: 25%;
+  height: 580px;
+  padding: 12px;
+  margin: 32px;
+  border: 2px solid lightgrey;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px gray;
+}
+
+.españa__imagen {
+  border-radius: 12px;
+}
+
+.españa__titulo {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+
+.thailandia {
+  background-color: lightcyan;
+  width: 25%;
+  height: 580px;
+  padding: 12px;
+  margin: 32px;
+  border: 2px solid lightgrey;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px gray;
+}
+
+.thailandia__img {
+  border-radius: 12px;
+}
+
+.thailandia__titulo {
+  font-family: "Dancing Script", cursive;
+}
+
+.venecia {
+  background-color: lightcyan;
+  width: 25%;
+  height: 580px;
+  padding: 12px;
+  margin: 32px;
+  border: 2px solid lightgrey;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px gray;
+}
+
+.venecia__titulo {
+  font-family: "Dancing Script", cursive;
+}
+
+.venecia__img {
+  border-radius: 12px;
+}
+
+.francia {
+  background-color: lightcyan;
+  width: 25%;
+  height: 550px;
+  padding: 12px;
+  margin: 32px;
+  border: 2px solid lightgrey;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px gray;
+}
+
+.francia__img {
+  border-radius: 12px;
+}
+
+.francia__titulo {
+  font-family: "Dancing Script", cursive;
+}
+
+@-webkit-keyframes efecto {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes efecto {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+/* Tablet */
+/* movil */
+@media screen and (max-width: 599px) {
+  .menu {
+    display: none;
+    background-color: black;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100vh;
+  }
+  .menu__items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    gap: 1rem;
+  }
+  .header__icono {
+    display: block;
+    margin-right: 20px;
+  }
+  .menu:target {
+    display: block;
+  }
+  .menu__pags--oculto {
+    display: block;
+  }
+  .inicio {
+    flex-direction: column;
+  }
+  .inicio__izquierda {
+    width: 100%;
+  }
+  .inicio__derecha {
+    width: 100%;
+  }
+  .inicio__img {
+    width: 400px;
+    height: 400px;
+  }
+  .viajes__section {
+    flex-direction: column;
+  }
+  .españa {
+    width: 80%;
+  }
+  .venecia {
+    width: 80%;
+  }
+  .thailandia {
+    width: 80%;
+  }
+  .francia {
+    width: 80%;
+  }
+}/*# sourceMappingURL=main.css.map */

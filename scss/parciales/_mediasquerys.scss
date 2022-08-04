@@ -1,0 +1,65 @@
+/* Tablet */
+@media screen and (max-width:1023px){
+
+}
+
+/* movil */
+@media screen and (max-width:599px){
+    
+    .menu{
+        display: none;
+        background-color: black;
+         position: fixed;
+        z-index: 10000;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100vh;
+    }
+    .menu__items{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100%;
+        gap: 1rem;
+    }
+    
+    .header__icono{
+        display: block;
+        margin-right: 20px;
+    }
+    .menu:target{
+        display: block;
+    }
+    .menu__pags--oculto{
+        display: block;
+    }
+    .inicio{
+        flex-direction: column;
+    }
+    .inicio__izquierda{
+        width: 100%;
+    }
+    .inicio__derecha{
+        width: 100%;
+    }
+    .inicio__img{
+        width: 400px;
+        height: 400px;
+    }
+    .viajes__section{
+        flex-direction: column;
+    }
+    .españa{
+        width: 80%;
+    }
+    .venecia{
+        width: 80%;
+    }
+    .thailandia{
+        width: 80%;
+    }
+    .francia{
+        width: 80%;
+    }
+}
