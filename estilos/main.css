@@ -109,7 +109,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 3rem;
 }
 .inicio .inicio__izquierda {
   width: 100%;
@@ -117,6 +116,13 @@ a {
 }
 .inicio .inicio__derecha {
   width: 100%;
+}
+.inicio .img-fluid {
+  max-width: 90%;
+  border: 2px solid lightgrey;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px gray;
+  margin-bottom: 20px;
 }
 
 .titulo {
