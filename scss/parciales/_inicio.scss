@@ -10,10 +10,7 @@
 }
 
 .titulo2{ 
-        font-family: 'Dancing Script', cursive;
-        font-size: 45px;
-        text-decoration: underline;
-        text-align: center;
+        @extend .titulo;
         animation-name: efecto;
         animation-duration: 4s;
         margin-bottom: 3rem;
@@ -42,7 +39,7 @@
     }
 
     .img-fluid {
-        max-width: 90%;
+        max-width: $maxwidth - 10%;
         border: 2px solid lightgrey;
         border-radius: 12px;
         box-shadow: 4px 4px 10px gray;
@@ -69,8 +66,7 @@
     
 }
 .formulario1{
-    margin: 16px;
-    display: flex;
+    @extend .formulario;
     width: 100%;
     
 }
@@ -125,7 +121,7 @@
 
 .españa{
     background-color: lightcyan;
-    width: 25%;
+    width: $maxwidth - 75%;
     height: 580px;
     padding: 12px;
     margin: 32px;
@@ -147,7 +143,7 @@
 }
 .thailandia{
     background-color: lightcyan;
-    width: 25%;
+    width: $maxwidth - 75%;
     height: 580px;
     padding: 12px;
     margin: 32px;
@@ -168,7 +164,7 @@
 }
 .venecia{
     background-color: lightcyan;
-    width: 25%;
+    width: $maxwidth - 75%;
     height: 580px;
     padding: 12px;
     margin: 32px;
@@ -189,7 +185,7 @@
 }
 .francia{
     background-color: lightcyan;
-    width: 25%;
+    width: $maxwidth - 75%;
     height: 550px;
     padding: 12px;
     margin: 32px;

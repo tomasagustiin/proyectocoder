@@ -94,7 +94,7 @@ a {
   gap: 1rem;
 }
 
-.titulo {
+.titulo, .titulo2 {
   margin-top: 160px;
   -webkit-animation-name: efecto;
           animation-name: efecto;
@@ -106,10 +106,6 @@ a {
 }
 
 .titulo2 {
-  font-family: "Dancing Script", cursive;
-  font-size: 45px;
-  text-decoration: underline;
-  text-align: center;
   -webkit-animation-name: efecto;
           animation-name: efecto;
   -webkit-animation-duration: 4s;
@@ -148,21 +144,19 @@ a {
   text-decoration: underline;
 }
 
-.titulo {
+.titulo, .titulo2 {
   font-family: "Dancing Script", cursive;
   font-size: 45px;
   text-decoration: underline;
   text-align: center;
 }
 
-.formulario {
+.formulario, .formulario1 {
   margin: 16px;
   display: flex;
 }
 
 .formulario1 {
-  margin: 16px;
-  display: flex;
   width: 100%;
 }
 
@@ -347,7 +341,7 @@ a {
     height: 100%;
     gap: 1rem;
   }
-  .titulo {
+  .titulo, .titulo2 {
     flex-direction: column;
     font-size: 25px;
   }
