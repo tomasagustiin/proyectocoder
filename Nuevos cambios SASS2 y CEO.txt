@@ -1,0 +1,6 @@
+	CEO
+Cambie el title de los html, 
+les agregue un keywords y description a cada uno
+	SASS2
+Pude agregar extend en algunas clases, en inicio.scss
+y use algunas variables restandole px 
