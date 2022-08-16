@@ -340,6 +340,7 @@ a {
     align-items: flex-start;
     height: 100%;
     gap: 1rem;
+    align-items: center;
   }
   .titulo, .titulo2 {
     flex-direction: column;
@@ -374,6 +375,9 @@ a {
   .inicio .inicio__img {
     width: 400px;
     height: 400px;
+  }
+  .formulario, .formulario1 {
+    flex-direction: column;
   }
   .viajes__section {
     flex-direction: column;
