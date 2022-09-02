@@ -61,6 +61,27 @@
             height: 400px;
         }
     }
+
+    .inicio2{
+        flex-direction: column;
+        margin: 10px;
+        .inicio__izquierda2{
+            width: 100%;
+            padding: 0;
+            justify-content: center;
+        }
+        .inicio__derecha2{
+            width: 100%;
+        }
+        .inicio__img{
+            width: 400px;
+            height: 400px;
+            margin: 0rem;
+        }
+        .img-fluid{
+            margin: 0rem;
+        }
+    }
     .formulario{
         flex-direction: column;
       

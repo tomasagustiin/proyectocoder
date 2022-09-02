@@ -5,17 +5,17 @@ a {
 }
 
 .body1 {
-  background-color: #DBFFFF;
+  background-color: #E5F9FF;
 }
 
 .main {
-  background-color: #DBFFFF;
+  background-color: #E5F9FF;
   width: 100%;
   min-height: 80vh;
 }
 
 .header {
-  background-color: #7effff;
+  background-color: #BEEFFF;
   position: fixed;
   top: 0;
   left: 0;
@@ -75,7 +75,7 @@ a {
 }
 
 .footer {
-  background-color: #DBFFFF;
+  background-color: #BEEFFF;
   font-family: "Dancing Script", cursive;
   position: static;
   bottom: 0;
@@ -85,14 +85,18 @@ a {
   margin-top: 2rem;
 }
 
-.contacto {
+.footer__contactos {
   display: flex;
   text-decoration: none;
   list-style: none;
   justify-content: center;
-  border-top: 3px solid black;
   padding: 10px;
   gap: 1rem;
+  border-top: 3px solid black;
+}
+
+.footer__contactos--1 {
+  border-top: none;
 }
 
 .titulo, .titulo2 {
@@ -133,10 +137,34 @@ a {
 }
 .inicio .img-fluid {
   max-width: 90%;
-  border: 2px solid lightgrey;
+  border: 2px solid #BEEFFF;
   border-radius: 12px;
   box-shadow: 4px 4px 10px gray;
   margin-bottom: 20px;
+}
+
+.inicio2 {
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.inicio2 .inicio__izquierda2 {
+  width: 100%;
+  padding: 2rem;
+}
+.inicio2 .inicio__derecha2 {
+  width: 100%;
+}
+.inicio2 .img-fluid {
+  max-width: 90%;
+  border: 2px solid #BEEFFF;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px gray;
+  margin-bottom: 20px;
+  margin: 2rem;
 }
 
 .h2 {
@@ -169,9 +197,9 @@ a {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #BEEFFF;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid black;
   border-radius: 0.25rem;
 }
 
@@ -186,7 +214,7 @@ a {
   color: #212529;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid black;
   border-radius: 0.25rem;
 }
 
@@ -198,6 +226,7 @@ a {
 
 .btn-light {
   margin: 1rem;
+  border: black;
 }
 
 .section {
@@ -213,12 +242,13 @@ a {
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 33% 33% 33%;
   grid-template-areas: "img1 img2 img3" "img4 img2 img3" "img4 img2 img5";
-  gap: 7px;
+  gap: 3px;
+  background-color: #BEEFFF;
 }
 
 .grid__hijo {
-  border: 1px solid gray;
-  margin: 7px;
+  border: 3px solid #BEEFFF;
+  margin: 3px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -265,12 +295,12 @@ a {
 }
 
 .españa {
-  background-color: lightcyan;
+  background-color: #BEEFFF;
   width: 25%;
   height: 600px;
   padding: 12px;
   margin: 32px;
-  border: 2px solid lightgrey;
+  border: 2px solid black;
   border-radius: 12px;
   box-shadow: 4px 4px 10px gray;
 }
@@ -290,12 +320,12 @@ a {
 }
 
 .thailandia {
-  background-color: lightcyan;
+  background-color: #BEEFFF;
   width: 25%;
   height: 600px;
   padding: 12px;
   margin: 32px;
-  border: 2px solid lightgrey;
+  border: 2px solid black;
   border-radius: 12px;
   box-shadow: 4px 4px 10px gray;
 }
@@ -314,12 +344,12 @@ a {
 }
 
 .venecia {
-  background-color: lightcyan;
+  background-color: #BEEFFF;
   width: 25%;
   height: 600px;
   padding: 12px;
   margin: 32px;
-  border: 2px solid lightgrey;
+  border: 2px solid black;
   border-radius: 12px;
   box-shadow: 4px 4px 10px gray;
 }
@@ -338,12 +368,12 @@ a {
 }
 
 .francia {
-  background-color: lightcyan;
+  background-color: #BEEFFF;
   width: 25%;
   height: 600px;
   padding: 12px;
   margin: 32px;
-  border: 2px solid lightgrey;
+  border: 2px solid black;
   border-radius: 12px;
   box-shadow: 4px 4px 10px gray;
 }
@@ -434,6 +464,26 @@ a {
   .inicio .inicio__img {
     width: 400px;
     height: 400px;
+  }
+  .inicio2 {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .inicio2 .inicio__izquierda2 {
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+  }
+  .inicio2 .inicio__derecha2 {
+    width: 100%;
+  }
+  .inicio2 .inicio__img {
+    width: 400px;
+    height: 400px;
+    margin: 0rem;
+  }
+  .inicio2 .img-fluid {
+    margin: 0rem;
   }
   .formulario, .formulario1 {
     flex-direction: column;
